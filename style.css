@@ -1,0 +1,12 @@
+#hello{
+    stroke-dasharray: 4704;
+    stroke-dashoffset: 4704;
+    animation: helloAnimation 6s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes helloAnimation {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
